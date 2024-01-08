@@ -1,4 +1,4 @@
-#include <cvzone.h>
+
 
 SerialData serialData(1,3); //(numOfValsRec,digitsPerValRec)
 
@@ -11,7 +11,7 @@ int valsRec[1];
 
 void setup() {
   serialData.begin(115200); 
-  pinMode(1,OUTPUT);
+  pinMode(9,OUTPUT); //connect to pin 9 
  
 }
 
